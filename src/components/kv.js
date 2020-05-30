@@ -10,7 +10,7 @@ function Kv() {
         <Col sm={12} className="mx-auto">
           <div className={Style.siteHeading}>
             <h1>ぴか兄ブログ</h1>
-            <span>By Gatsby.js + GraphQL + Headless CMS</span>
+            <span>Gatsby.js + GraphQL で作成しました。<br></br>日々の学習記録を投稿していきます。</span>
           </div>
         </Col>
       </Row>

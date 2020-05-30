@@ -7,7 +7,7 @@ function Footer() {
       <Row>
         <Col sm={12} className="mx-auto">
           <div className={Style.footer}>
-            <span>Thank you for reading my blog!!</span>
+            <span>読んでいただきありがとうございました！！</span>
           </div>
         </Col>
       </Row>

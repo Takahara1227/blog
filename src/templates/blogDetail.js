@@ -19,7 +19,7 @@ function BlogDetail(props) {
     renderNode: {
       "embedded-asset-block": (node) => {
         return (<img
-        width="100%"
+          width="100%"
           src={node.data.target.fields.file['en-US'].url}
           alt={node.data.target.fields.title['en-US']} />)
       }
@@ -33,7 +33,7 @@ function BlogDetail(props) {
         {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
       </Container>
       <Container className="text-center">
-        <Button href="/" variant="outline-info">トップページに戻れるぞ！</Button>
+        <Button href="/" variant="outline-info" className="mt-5">トップページに戻りたい！</Button>
       </Container>
     </Layout>
   )
